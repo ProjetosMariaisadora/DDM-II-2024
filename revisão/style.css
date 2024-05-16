@@ -1,0 +1,54 @@
+nav{
+    background-color:#87CEFA	;
+    height: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    padding: 5px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    background-color: #87CEFA;
+    color: purple;
+}
+
+nav ul li ul{
+    background-color:#87CEFA;
+    top: -5000px;
+    position: absolute;
+}
+
+nav ul li:hover ul{
+    left: 0px;
+    top: 30px;
+}
+
+nav ul li ul li{
+    width: 300px;
+    border-bottom: 1px solid #87CEFA;
+}
+
+nav ul li ul li a{
+    padding: 10px;
+}
+
+nav ul li ul li a:hover{
+    background-color: #87CEFA;
+    color: black;
+}
